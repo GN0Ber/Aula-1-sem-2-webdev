@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="titulo">TÍTULO</h1>
+    <p>Mudar Título: <input type="text" id="idNome"></p>
+    <button onclick="mudar()">Clique</button>
+
+    <hr>
+
+    <h1>Classificação: </h1>
+    <p>1° Colocado: <span class="colocado"></span></p>
+    <p>2° Colocado: <span class="colocado"></span></p>
+    <p>3° Colocado: <span class="colocado"></span></p>
+
+    <p>Novo Classificado: <input type="text" id="novo"></p>
+    <p>Posição> <input type="number" id="posicao" min="1" max="3"></p>
+    <button onclick="inserir()">Adicionar</button>
+
+    <hr>
+
+    <h1>Escolha o Mês</h1>
+    <ul>
+        <li>JANEIRO</li>
+        <li>FEVEREIRO</li>
+        <li>MARÇO</li>
+        <li>ABRIL</li>
+        <li>MAIO</li>
+    </ul>
+    <p>Escolha um Mês <input type="number" id="numero" min="1" max="5"></p>
+    <button onclick="mostrar()">RESULTADO</button>
+    <p>Mês Escolhido: <span id="resultado"></span></p>
+
+    <hr>
+
+    <h1>EVENTOS</h1>
+    <button id="btnMsg">Clique Aqui</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
